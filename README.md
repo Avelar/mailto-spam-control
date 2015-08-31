@@ -3,7 +3,7 @@
 Função simples para prevenir que _spambots_ capturem um email
 Fique a vontade para usar e contribuir com melhorias
 
-[Ver exemplo](http://avelarfortunato.com/mailto-spam-control/)
+[Ver exemplo](http://avelarfortunato.com/mailto-spam-control/mailto-spam-control.html)
 
 ### Como Usar
 1 (HTML) Chame a função `spamControl` no atributo href da sua link tag, com 2 argumentos: o primeiro é o usuário e o segundo o dominio. Exemplo:
