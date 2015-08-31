@@ -1,0 +1,9 @@
+.DS_Store
+.svn
+*~
+*.swp
+/vendor/ruby
+/coverage
+/.bundle
+/tmp
+/log/*.log
