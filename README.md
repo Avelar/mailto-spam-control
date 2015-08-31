@@ -1,20 +1,20 @@
 #  Mailto Spam Control (msc.js)
 
-Função simples para prevenir que _spambots_ capturem um email
-Fique a vontade para usar e contribuir com melhorias
-
+Mailto spam control é um script para previnir que _spambots_ capturem um email no mailto link  
 [Ver exemplo](http://avelarfortunato.com/mailto-spam-control/mailto-spam-control.html)
 
 ### Como Usar
-1 (HTML) Chame a função `spamControl` no atributo href da sua link tag, com 2 argumentos: o primeiro é o usuário e o segundo o dominio. Exemplo:
-`<a href=‘javascript:spamControl(“usuario”, “gmail.com”)’ rel=“nofollow”>`
+1 *HTML* - Adicione a função `spamControl` ao atributo href do seu link, com os argumentos: usuário e dominio. Adicione também o atributo `rel` com valor `nofollow` para previnir que motores de busca sigam seu link.
+Exemplo: `<a href='javascript:spamControl("user", "gmail.com")'  rel="nofollow">`
 
-2 (JS) No JS adicione a declaração a seguir:
+2 *JS* - Implemente a função `spamControl` que vai ouvir o evento click do link e usar o window.location para retornar a localização do objeto e montar o mailto link:
 ```
-function spamControl(usuario,domino) {
-	getString = ‘mailto:’ + usuario + ‘@‘ + domino;
+function spamControl(user,domain) {
+	getString = ‘mailto:’ + user + ‘@‘ + domain;
 	window.location = getString;
 }
-```
+```  
 
-3 (Teste) O resultado final deve montar um mailto link `usuario@gmail.com` no do cliente de email padrão.
+3 *Conclusão* - O resultado final monta um link de email,`usuario@gmail.com`, no cliente de email padrão.  
+
+Fique a vontade para usar e contribuir com melhorias
