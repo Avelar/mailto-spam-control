@@ -2,7 +2,8 @@
 
 Mailto spam control é um script simples para prevenir que _spambots_ capturem um email no mailto link  
 
-[Ver exemplo](http://avelarfortunato.com/msc/mailto-spam-control.html)
+[Ver exemplo](http://avelarfortunato.com/msc/mailto-spam-control.html)  
+[Blog Post](https://medium.com/@avelarfortunato/2-truques-para-evitar-spam-em-seu-site-d2cd0b858479)
 
 ### Como Usar
 1 *HTML* - Adicione a função `spamControl` ao atributo href do seu link, com os argumentos: usuário e dominio. Adicione também o atributo `rel` com valor `nofollow` para previnir que motores de busca sigam seu link. Exemplo:   
@@ -18,6 +19,6 @@ function spamControl(user,domain) {
 }
 ```  
 
-3 *Conclusão* - O resultado final monta um link de email,`usuario@gmail.com`, no cliente de email padrão.  
+3 *Conclusão* - O resultado final monta um link de email,`user@gmail.com`, no cliente de email padrão.  
 
 Fique a vontade para usar e contribuir com melhorias
