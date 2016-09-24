@@ -2,7 +2,7 @@
 
 Mailto spam control é um script simples para prevenir que _spambots_ capturem um email no mailto link  
 
-[Ver exemplo](http://avelarfortunato.com/msc/msc.html)  
+[Ver exemplo](http://avelarfortunato.com/mailto-spam-control/)  
 [Blog Post](https://medium.com/@avelarfortunato/2-truques-para-evitar-spam-em-seu-site-d2cd0b858479)
 
 ### Como Usar
